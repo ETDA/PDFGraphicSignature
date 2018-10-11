@@ -31,7 +31,7 @@ insert graphic signature on PDF using PDFbox.
     	sig.setSignatureWidth(signatureWidth);   	
 
     	//Start append graphic signature 
-	sig.Append();
+		sig.Append();
 
 ## Changelog
 
