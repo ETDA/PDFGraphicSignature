@@ -2,6 +2,8 @@
 
 insert graphic signature on PDF using PDFbox.
 
+:warning: This graphic signature is not a cryptographic digital signature,just for decorations. 
+
 # Developed envoronment
 - Java Open JDK1.8
 - Eclipse Oxygen 
