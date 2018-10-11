@@ -12,7 +12,7 @@ insert graphic signature on PDF using PDFbox.
 
 ## Example 
 
-   	    GraphicSignature sig = new GraphicSignature(inputFilePath,outputFilePath,signatureFilePath);
+   	GraphicSignature sig = new GraphicSignature(inputFilePath,outputFilePath,signatureFilePath);
     	
     	/* Set signature picture 's origin coordinate (0,0 is bottom-left of PDF page)
     	 * 
@@ -31,7 +31,7 @@ insert graphic signature on PDF using PDFbox.
     	sig.setSignatureWidth(signatureWidth);   	
 
     	//Start append graphic signature 
-			sig.Append();
+	sig.Append();
 
 ## Changelog
 
